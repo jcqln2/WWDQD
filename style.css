@@ -1,0 +1,51 @@
+body {
+
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(3px);
+}
+
+
+
+.container {
+  background: rgba(255, 255, 255, 0.85);
+  border: 3px double #8b5e3c;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  max-width: 600px;
+  font-size: 1.1rem;
+}
+
+h1 {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 2rem;
+  color: #5a3921;
+}
+
+#userQuestion {
+  border: 2px solid #bfa88a;
+  background-color: #fffaf0;
+  font-family: 'EB Garamond', serif;
+}
+
+.btn-primary {
+  background-color: #7c3e0c;
+  border-color: #5a2f09;
+  font-weight: bold;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary:hover {
+  background-color: #5a2f09;
+  border-color: #3e2106;
+}
+
+#adviceBox {
+  color: #4a3c2e;
+  font-style: italic;
+  border-top: 1px dashed #a89274;
+  padding-top: 1rem;
+  margin-top: 1.5rem;
+}

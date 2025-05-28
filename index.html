@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What Would Don Quixote Do?</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+
+</head>
+<body class="bg-light d-flex flex-column justify-content-center align-items-center vh-100 text-center">
+
+  <div class="container p-4 border rounded shadow bg-white" style="max-width: 500px;">
+    <h1 class="mb-4">🤺 What would the valorous Don Quixote of La Mancha do? 🏰</h1>
+    <p class="text-muted">Pose thy query, whate’er it be, and the noble Don Quixote shall bestow upon thee his most chivalrous counsel</p>
+    
+    <input id="userQuestion" type="text" class="form-control my-3" placeholder="Enter your query here" />
+    <button class="btn btn-primary w-100" onclick="getQuixoteWisdom()">Take Counsel</button>
+
+    <div id="adviceBox" class="mt-4 fs-5 fst-italic text-success"></div>
+    
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
